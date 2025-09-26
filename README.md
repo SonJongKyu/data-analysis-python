@@ -61,9 +61,6 @@ Pandas, Matplotlib, Folium 등을 활용해 데이터를 시각화하고,
 ## **⚙️ Install**
 
 ```
-# 저장소 클론
-git clone https://github.com/<your-repo>/seoul-library-analytics.git
-cd seoul-library-analytics
 
 # 1) 의존성 설치
 pip install -r requirements.txt
