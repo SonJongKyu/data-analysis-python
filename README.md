@@ -1,8 +1,7 @@
-# 2024.09, 1人 프로젝트
+**2024.09 (1人 개인 프로젝트)**
 
----
+## **📌 Summary** 
 
-📌 Summary  
 본 프로젝트는 서울시에서 제공하는 다양한 **공공데이터**를 수집·정제하여  
 도서관, 학교, 인구, 대출 현황을 다각적으로 분석한 **Python 기반 데이터 분석 프로젝트**입니다.  
 
@@ -16,9 +15,8 @@ Pandas, Matplotlib, Folium 등을 활용해 데이터를 시각화하고,
 > - 대출 데이터 기반 인기 출판사 및 인기 도서 트렌드 도출  
 > - 시계열 분석(일자별 대출 추이, 요일별 행사 건수)  
 
----
+## **🤔 Background**
 
-🤔 Background  
 서울시는 전국에서 가장 많은 도서관·학교·인구 밀집도를 가진 도시로,  
 문화 인프라의 접근성과 분포를 파악하는 것이 중요합니다.  
 
@@ -26,9 +24,7 @@ Pandas, Matplotlib, Folium 등을 활용해 데이터를 시각화하고,
 실제 데이터 분석 파이프라인(수집 → 정제 → 시각화 → 인사이트 도출)을 설계·구현하여  
 **데이터 기반 정책 제안과 문화 서비스 개선에 활용할 수 있는 분석 모델**을 마련하는 것을 목표로 진행했습니다.  
 
----
-
-🔍 Meaning  
+## **🔍 Meaning**
 
 **분석 측면**  
 - Python 기반 데이터 정제/시각화 실습으로 공공데이터 활용 역량 강화  
@@ -42,9 +38,7 @@ Pandas, Matplotlib, Folium 등을 활용해 데이터를 시각화하고,
 
 단순 데이터 시각화에 그치지 않고, **정책·문화 서비스 활용까지 연결**할 수 있다는 점에서 의미가 큽니다.  
 
----
-
-🔨 Technology Stack(s)  
+## **🔨 Technology Stack(s)** 
 
 **Languages & Libraries**  
 - Python (데이터 수집/정제/시각화)  
@@ -64,11 +58,9 @@ Pandas, Matplotlib, Folium 등을 활용해 데이터를 시각화하고,
 - 대학교 위치 정보  
 - 서울도서관 인기대출 도서 (최근 60일)  
 
----
+## **⚙️ Install**
 
-⚙️ Install  
-
-```bash
+```
 # 저장소 클론
 git clone https://github.com/<your-repo>/seoul-library-analytics.git
 cd seoul-library-analytics
@@ -86,3 +78,4 @@ python main.py
 # 4) 개별 실행 예시
 python -m scripts.events_by_weekday
 python -m scripts.choropleth_population_per_library
+```
